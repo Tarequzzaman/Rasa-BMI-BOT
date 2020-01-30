@@ -5,6 +5,11 @@
 - good morning
 - good evening
 - hey there
+- ki obosta 
+- ki khobor
+- hi apa
+- Apa
+
 
 ## intent:goodbye
 - bye
