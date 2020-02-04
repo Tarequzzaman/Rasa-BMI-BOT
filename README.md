@@ -38,7 +38,7 @@ action_endpoint:
 
 
 
-```
+``` python
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -63,12 +63,12 @@ class ActionHelloWorld(Action):
 
 4. for installation python sdk for custom action go <a href="https://rasa.com/docs/rasa/api/rasa-sdk/#custom-action-example">here</a>
 
-
+Install Sdk using: 
 ```
-install sdk using:
 pip install rasa-sdk
-
-for run custom action
+```
 
 rasa run actions
+```
+for run custom action
 ```
