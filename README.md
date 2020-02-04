@@ -4,3 +4,71 @@
 
 
 <p>The main goal of this project is create a Bengali conversational chatbot using Rasa</p>
+<h2>custom response</h2>
+
+Custom response is one of the feature of Rasa ai
+
+To enable this use follow the steps:
+
+
+
+
+1.add action to domain.yml
+
+```
+actions:
+.
+.
+.
+- action_hello_world
+.
+.
+.
+```
+
+2. Enable endpoints.yml
+
+
+```
+action_endpoint:
+ url: "http://localhost:5055/webhook"
+```
+
+3. Edit action.py
+
+
+
+```
+from typing import Any, Text, Dict, List
+
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+
+
+class ActionHelloWorld(Action):
+
+    def name(self) -> Text:
+        return "action_hello_world"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Hello World!")
+
+        return []
+```
+
+
+
+4. for installation python sdk for custom action go <a href="https://rasa.com/docs/rasa/api/rasa-sdk/#custom-action-example">here</a>
+
+
+```
+install sdk using:
+pip install rasa-sdk
+
+for run custom action
+
+rasa run actions
+```

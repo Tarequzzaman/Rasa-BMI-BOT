@@ -1,8 +1,8 @@
-## happy path
+<!-- ## happy path
 * greet
   - utter_greet
 * mood_great
-  - utter_happy
+  - utter_happy -->
 
 ## sad path 1
 * greet
@@ -30,8 +30,6 @@
 * bot_challenge
   - utter_iamabot
 
-
-
 ## matha betha detect
 * greet
   - utter_greet
@@ -40,5 +38,22 @@
 * headec_left
   - utter_headac_solution
 
+## custom_response
+* greet
+  - utter_greet
+* mood_great
+  - action_hello_world
 
 
+
+
+## New Story
+
+* greet
+    - utter_greet
+* matha_betha
+    - utter_ask_about_headac
+* headec_left
+    - utter_headac_solution
+* goodbye
+    - utter_goodbye
