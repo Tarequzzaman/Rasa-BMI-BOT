@@ -4,6 +4,11 @@
 * mood_great
   - utter_happy -->
 
+
+## only greet
+* greet
+   - utter_greet
+   
 ## sad path 1
 * greet
   - utter_greet
