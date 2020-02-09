@@ -8,7 +8,15 @@
 ## only greet
 * greet
    - utter_greet
-   
+
+## bmi
+* greet
+  - utter_greet
+
+* BMI_mapbo
+  - utter_ask_weight
+  - utter_ask_height
+  
 ## sad path 1
 * greet
   - utter_greet

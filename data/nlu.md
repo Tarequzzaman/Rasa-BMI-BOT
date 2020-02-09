@@ -7,14 +7,16 @@
 - hey there
 
 
-## intent: BMI mapbo
+## intent: BMI_mapbo
 - amar bmi koto
 - amar bmi mapbo
 - bmi mape kivabe
 - accha bmi mapbo kivabe
 - amar bmi koro
 - amar bmi kivabe nirnoy korbo
-- amar bmi kivabe mapbo 
+- amar bmi kivabe mapbo
+
+
 
 ## intent: matha_betha
 - মাথা বেথা  জন্য কি করা যাই

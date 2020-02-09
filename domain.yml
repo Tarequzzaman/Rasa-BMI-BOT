@@ -14,7 +14,7 @@ intents:
 
 templates:
   utter_greet:
-  - text: আমি BMI Bot !!! দয়া করে আপনার ওজন আমাকে দিন ?  
+  - text: আমি BMI Bot !!! দয়া করে আপনার ওজন আমাকে দিন ?
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
@@ -30,6 +30,11 @@ templates:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_ask_weight:
+  - text: please give me your weight(always give me in KG)
+  utter_ask_height:
+  - text: Please give me your height(always give me in feet)
+
 
 actions:
 - utter_greet
@@ -41,3 +46,5 @@ actions:
 - utter_headac_solution
 - action_hello_world
 - utter_happy
+- utter_ask_weight
+- utter_ask_height
