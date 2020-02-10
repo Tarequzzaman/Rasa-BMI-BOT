@@ -11,7 +11,17 @@ intents:
 - bot_challenge
 - matha_betha
 - headec_left
-
+- BMI_mapbo
+- my_weight
+- my_height
+entities:
+- weight
+- height
+slots:
+  height:
+    type: text
+  weight:
+    type: text
 templates:
   utter_greet:
   - text: আমি BMI Bot !!! দয়া করে আপনার ওজন আমাকে দিন ?
@@ -34,8 +44,6 @@ templates:
   - text: please give me your weight(always give me in KG)
   utter_ask_height:
   - text: Please give me your height(always give me in feet)
-
-
 actions:
 - utter_greet
 - utter_cheer_up
@@ -48,3 +56,8 @@ actions:
 - utter_happy
 - utter_ask_weight
 - utter_ask_height
+- action_bmi
+- action_set_weight
+- action_set_height
+- action_calculate_bmi
+- utter_happy -->

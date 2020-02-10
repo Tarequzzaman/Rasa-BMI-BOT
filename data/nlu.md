@@ -17,6 +17,24 @@
 - amar bmi kivabe mapbo
 
 
+## intent: my_weight
+- amar ojon [62](weight) kg
+- ami akn [56](weight) kg
+- amar ojon [84](weight) kg
+- amar ujon [100](weight) kg
+- amr ojon [44](weight) kg
+
+
+## intent: my_height
+- amar ucchota [5.2](height) inch
+- amr ucota [4.2](height) inch
+- amar ucchota [5.5](height) inch
+- amar height [5.7](height) inch
+- amer ucchota [5.4](height) inch
+- amr height [5.9](height) inch
+- amar height [6.0](height) inch
+
+
 
 ## intent: matha_betha
 - মাথা বেথা  জন্য কি করা যাই

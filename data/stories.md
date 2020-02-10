@@ -9,13 +9,18 @@
 * greet
    - utter_greet
 
-## bmi
-* greet
-  - utter_greet
-
+## ask Bmi
 * BMI_mapbo
-  - utter_ask_weight
-  - utter_ask_height
+   - utter_ask_weight
+* my_weight
+   - action_set_weight
+   - utter_ask_height
+* my_height
+  - action_set_height
+  - action_calculate_bmi
+
+  
+
   
 ## sad path 1
 * greet
