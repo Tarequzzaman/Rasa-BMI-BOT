@@ -24,7 +24,7 @@ slots:
     type: text
 templates:
   utter_greet:
-  - text: আমি BMI Bot !!! দয়া করে আপনার ওজন আমাকে দিন ?
+  - text: hlw আমি BMI Bot !!!
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
@@ -52,11 +52,9 @@ actions:
 - utter_iamabot
 - utter_ask_about_headac
 - utter_headac_solution
-- action_hello_world
 - utter_happy
 - utter_ask_weight
 - utter_ask_height
-- action_bmi
 - action_set_weight
 - action_set_height
 - action_calculate_bmi

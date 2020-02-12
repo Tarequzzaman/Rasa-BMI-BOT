@@ -56,11 +56,6 @@
 * headec_left
   - utter_headac_solution
 
-## custom_response
-* greet
-  - utter_greet
-* mood_great
-  - action_hello_world
 
 
 

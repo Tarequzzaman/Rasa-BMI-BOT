@@ -26,13 +26,13 @@
 
 
 ## intent: my_height
-- amar ucchota [5.2](height) inch
-- amr ucota [4.2](height) inch
-- amar ucchota [5.5](height) inch
-- amar height [5.7](height) inch
-- amer ucchota [5.4](height) inch
-- amr height [5.9](height) inch
-- amar height [6.0](height) inch
+- amar ucchota [5.2](height) feet
+- amr ucota [4.2](height) feet
+- amar ucchota [5.5](height) feet
+- amar height [5.7](height) feet
+- amer ucchota [5.4](height) feet
+- amr height [5.9](height) feet
+- amar height [6.0](height) feet
 
 
 

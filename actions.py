@@ -30,16 +30,6 @@ class ActionHelloWorld(Action):
 
 
 
-class ActionBmi(Action):
-    def name(self) -> Text:
-        return "action_bmi"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Your bmi is 13.20")
-        return []
 
 
 
@@ -59,7 +49,7 @@ class WeightSET(Action):
         except:
             dispatcher.utter_message(text="Error Occur!")
 
-        dispatcher.utter_message(text="Ok")
+        dispatcher.utter_message(text="Weight set")
         return []
 
 class HeightSET(Action):
@@ -72,7 +62,7 @@ class HeightSET(Action):
             tracker.get_slot("height")
         except:
             dispatcher.utter_message(text="Error Occur!")
-        dispatcher.utter_message(text="Ok")
+        dispatcher.utter_message(text="Height set")
         return []
 
 
